@@ -21,10 +21,11 @@
             <span class="heading"> <i class="fa-solid fa-gamepad"></i> <b>Classic Games Hub</b></span>
         </div>
         <div class="menu">
-            <a href="#" class="nav_link">Home</a>
-            <a href="#contact" class="nav_link">Game</a>
-            <a href="#" class="nav_link">Features</a>
-            <a href="#" class="nav_link">Statistics</a>
+            <a href="#" class="nav-link">Home</a>
+            <a href="#contact" class="nav-link">Game</a>
+            <a href="#about" class="nav-link">About</a>
+            <!-- <a href="#" class="nav-link">Features</a> -->
+            <a href="#" class="nav-link">Statistics</a>
         </div>
         <div class="bar">
             <span><i class="fa-solid fa-bars"></i></span>
@@ -46,8 +47,8 @@
                             yourself or play with friends in this beautifully designed Tic Tac Toe game.</i></p>
                 </div>
             </div>
-            <div class="game-conatiner">
-                <div class="conatiner_ttt">
+            <div class="game-container">
+                <div class="container-ttt">
                     <div class="box_ttt">X</div>
                     <div class="box_ttt">O</div>
                     <div class="box_ttt">X</div>
@@ -61,13 +62,15 @@
                 <div class="rps">
                     <div class="rock rrps"></div>
                     <div class="paper rrps"></div>
-                    <div class="scissre rrps"></div>
+                    <div class="scissors rrps"></div>
                 </div>
             </div>
             <div class="btn">
-                <button class="play-button">
-                    <span class="icon">▶</span> Play Now
-                </button>
+                <a href="#contact" style="text-decoration: none;">
+                    <button class="play-button">
+                        <span class="icon">▶</span> Play Now
+                    </button>
+                </a>
 
             </div>
         </div>
@@ -153,8 +156,8 @@
                 <!-- <button class="tic-playnow">Play Now</button> -->
                 <a href="tic-tac-toe/ttt.html" style="text-decoration: none;">
                     <button class="tic-playnow">
-                    <span class="icon">▶</span> Play Now
-                </button>
+                        <span class="icon">▶</span> Play Now
+                    </button>
                 </a>
             </div>
         </div>
@@ -202,6 +205,60 @@
         </div>
     </main>
     </nav>
+    <section id="about">
+        <div class="body-about">
+            <div class="abt-web card">
+                <i id="icon-abt"  class="fa-solid fa-globe"></i> 
+                <h3> About This Website</h3>
+                <p>Welcome to <strong>PlayTime Arcade</strong> — a mini-game website where you can enjoy classic games
+                    like
+                    <em>Tic Tac Toe</em> and <em>Stone Paper Scissors</em> anytime, anywhere!
+                </p>
+            </div>
+
+            <div class="abt-devloper card">
+                <i id="icon-abt"  class="fa-solid fa-laptop-code"></i></i>
+                <h3> About the Developer</h3>
+                <p>Hi! I'm <strong>Sahil Mujahid</strong>, a web developer who loves creating interactive and fun web
+                    experiences.
+                    This project helped me practice HTML, CSS, and JavaScript while building something enjoyable for
+                    everyone.
+                </p>
+            </div>
+
+            <div class="abt-tech card">
+                <i id="icon-abt" class="fa-solid fa-microchip"></i>
+                <h3>Technologies Used</h3>
+                <ul class="colo">
+                    <li>HTML5, CSS3, JavaScript</li>
+                    <li>Responsive Design</li>
+                    <li>Hosted on GitHub Pages</li>
+                </ul>
+            </div>
+
+            <div class="abt-contact card">
+                <i id="icon-abt" class="fa-solid fa-address-book"></i>
+                <h3>Contact</h3>
+                <p>Email: <a href="https://github.com/sahilsudo">sahlmujahid261@email.com</a></p>
+                <p>GitHub: <a href="https://github.com/sahilsudo" target="_blank">https://github.com/sahilsudo</a></p>
+            </div>
+
+            <div class="abt-devloper card">
+                <i id="icon-abt" class="fa-solid fa-trophy"></i>
+                <h3> Score Tracking</h3>
+                <p>Hi! I'm <strong>Sahil Mujahid</strong>, Keep track of your wins, losses, and ties with persistent
+                    score storage.
+                </p>
+            </div>
+
+            <div class="abt-devloper card">
+                <i id="icon-abt"  class="fa-solid fa-arrow-rotate-right"></i>
+                <h3>Reset Options</h3>
+                <p>Easily reset the current game or clear all scores with one click.</p>
+            </div>
+        </div>
+    </section>
+
 </body>
 <script src="home.js"></script>
 
