@@ -463,9 +463,6 @@ html {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     height: 300px;
     background-color: #2a2a2a;
-    box-shadow:
-        /* 0 2px 60px #00b8eb67; */
-    /* opacity: 0.8; */
 }
 
 .card:hover {
