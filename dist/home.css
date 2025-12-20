@@ -10,15 +10,6 @@ html {
     box-sizing: border-box;
 }
 
-/* .container {
-    background-color: black;
-    height: 4rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-} */
-
 .container {
     background-color: black;
     height: 4rem;
@@ -36,7 +27,7 @@ html {
 }
 
 .heading {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #AE2012;
 }
 
@@ -50,7 +41,8 @@ html {
 .nav-link {
     text-decoration: none;
     color: white;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
+    font-size: 1.75rem;
     font-weight: 400;
     position: relative;
     cursor: pointer;
@@ -463,16 +455,17 @@ html {
 }
 
 .card {
-    background: white;
+    /* background: #00b8eb67; */
     width: 300px;
     padding: 2rem 1.5rem;
     border-radius: 1rem;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     height: 300px;
+    background-color: #2a2a2a;
     box-shadow:
-        0 2px 60px #00b8eb67;
-    opacity: 0.8;
+        /* 0 2px 60px #00b8eb67; */
+    /* opacity: 0.8; */
 }
 
 .card:hover {
@@ -481,9 +474,9 @@ html {
 }
 
 #icon-abt {
-    background: linear-gradient(135deg, #020024, #020024, #00B7EB);
+    /* background: linear-gradient(135deg, #020024, #020024, #00B7EB); */
     color: white;
-    font-size: 2rem;
+    font-size: 3rem;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -495,19 +488,19 @@ html {
 
 h3 {
     /* color: #1a1a1a; */
-    color: black;
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+    color: #0A9396;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
 }
 
 p {
-    color: #475053;
-    font-size: 0.95rem;
+    color: white;
+    font-size: 0.90rem;
     line-height: 1.4;
 }
 
 .colo {
-    color: #475053;
+    color: white;
     font-size: 0.95rem;
     line-height: 1.4;
 }
